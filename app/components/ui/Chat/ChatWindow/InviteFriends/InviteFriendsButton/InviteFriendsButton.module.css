@@ -1,0 +1,7 @@
+.inviteBtn {
+  @apply fixed top-36 right-5 min-w-max p-0 h-max bg-success z-30 rounded-full;
+}
+
+.inviteIcon {
+  @apply p-1.5;
+}

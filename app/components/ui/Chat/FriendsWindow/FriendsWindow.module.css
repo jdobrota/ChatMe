@@ -1,0 +1,15 @@
+.column {
+  @apply flex flex-col;
+}
+
+.button {
+  @apply max-w-fit self-start;
+}
+
+.card {
+  @apply mx-1 h-[99%];
+}
+
+.provider {
+  @apply w-[40%] max-w-[20svw];
+}

@@ -1,0 +1,19 @@
+.user {
+  @apply text-xs overflow-hidden p-1;
+}
+
+.addButton {
+  @apply ml-1;
+}
+
+.span {
+  @apply flex flex-col gap-1;
+}
+
+.cardStyle {
+  @apply mt-1 bg-gray-100;
+}
+
+.bodyStyle {
+  @apply flex flex-row items-center justify-between;
+}

@@ -1,0 +1,7 @@
+.card {
+  @apply flex flex-col mx-1 w-[99%] h-[99%] overflow-hidden;
+}
+
+.provider {
+  @apply w-[60%];
+}

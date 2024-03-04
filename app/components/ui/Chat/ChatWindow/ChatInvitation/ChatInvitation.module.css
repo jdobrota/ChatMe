@@ -1,0 +1,15 @@
+.card {
+  @apply min-w-max p-0 h-max bg-success-200 z-30 m-2;
+}
+
+.cardBody {
+  @apply items-center;
+}
+
+.user {
+  @apply mt-2 text-xs p-0 max-w-fit;
+}
+
+.span {
+  @apply flex mt-2 gap-2;
+}

@@ -1,0 +1,7 @@
+.horizontalContainer {
+  @apply flex flex-row w-full;
+}
+
+.verticalContainer {
+  @apply flex flex-col w-full items-center;
+}

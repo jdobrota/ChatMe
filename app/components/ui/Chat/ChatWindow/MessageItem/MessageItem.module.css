@@ -1,0 +1,51 @@
+.sentText {
+  @apply flex flex-col self-end justify-center w-max max-w-[90%];
+}
+
+.receivedText {
+  @apply flex flex-col self-start justify-center w-fit max-w-[90%];
+}
+
+.sent {
+  @apply flex mt-2 w-full items-end justify-end self-end;
+}
+
+.received {
+  @apply flex mt-2 w-full items-end  self-start;
+}
+
+.text {
+  @apply rounded-3xl py-2 px-4 cursor-pointer whitespace-break-spaces text-sm not-italic;
+}
+
+.textReceived {
+  @apply bg-gray-100;
+}
+
+.textSent {
+  @apply bg-blue-500 text-white self-end;
+}
+
+.status {
+  @apply font-light text-xs w-max;
+}
+
+.statusSent {
+  @apply self-end;
+}
+
+.statusReceived {
+  @apply self-start;
+}
+
+.image {
+  @apply rounded-full mx-2 flex-shrink-0 self-start;
+}
+
+.pending {
+  @apply opacity-50;
+}
+
+.unseen {
+  @apply rounded-full border-2 border-red-300;
+}

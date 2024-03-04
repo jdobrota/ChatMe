@@ -1,0 +1,26 @@
+.content {
+  @apply h-full overflow-hidden overflow-x-scroll whitespace-nowrap;
+}
+
+.hr {
+  @apply border-t-1 border-gray-300 z-50;
+}
+
+.newChatButton {
+  @apply bg-blue-500 text-white ml-1;
+}
+
+/* width */
+.scroll::-webkit-scrollbar {
+  @apply w-4;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  @apply border-solid border-4 border-transparent rounded-lg bg-clip-padding bg-gray-200;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300;
+}

@@ -1,0 +1,19 @@
+.sendBtn {
+  @apply bg-blue-500 hover:bg-blue-700 disabled:opacity-50 disabled:hover:cursor-not-allowed text-white font-bold py-2 px-4 rounded-full ml-2;
+}
+
+.userInputIcon {
+  @apply text-2xl text-default-400 pointer-events-none flex-shrink-0;
+}
+
+.form {
+  @apply flex w-full py-2 flex-row place-items-center place-self-end;
+}
+
+.userInputContainer {
+  @apply w-full;
+}
+
+.emoji {
+  @apply bg-gray-200 rounded-full p-2 hover:bg-gray-300 ml-2;
+}

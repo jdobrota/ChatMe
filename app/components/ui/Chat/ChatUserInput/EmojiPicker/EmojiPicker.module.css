@@ -1,0 +1,38 @@
+.card {
+  @apply fixed bottom-16 right-20 p-0 bg-white z-40 w-[18rem] h-[20rem] hover:opacity-100 opacity-50;
+}
+
+.emoji {
+  @apply not-italic hover:bg-gray-200 rounded-md cursor-pointer w-[24px] h-[24px];
+}
+
+.activeCategory {
+  @apply bg-gray-200;
+}
+
+.emojiCategory {
+  @apply max-w-fit not-italic;
+}
+
+.emojiList {
+  @apply flex flex-wrap gap-1 overflow-y-scroll max-w-fit;
+}
+
+.category {
+  @apply flex max-w-max gap-1 self-center;
+}
+
+/* width */
+.emojiList::-webkit-scrollbar {
+  @apply w-4;
+}
+
+/* Handle */
+.emojiList::-webkit-scrollbar-thumb {
+  @apply border-solid border-4 border-transparent rounded-lg bg-clip-padding bg-gray-200;
+}
+
+/* Handle on hover */
+.emojiList::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300;
+}

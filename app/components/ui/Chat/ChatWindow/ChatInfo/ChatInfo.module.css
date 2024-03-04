@@ -1,0 +1,3 @@
+.card {
+  @apply fixed top-24 right-14 min-w-max p-0 h-max bg-white z-40;
+}

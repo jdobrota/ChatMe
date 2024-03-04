@@ -1,0 +1,19 @@
+.card {
+  @apply fixed top-36 right-14 min-w-max p-0 h-max bg-white z-30;
+}
+
+.friendButton {
+  @apply justify-start mt-1 bg-gray-100 w-full h-max outline outline-2 outline-white;
+}
+
+.friendInviteSent {
+  @apply outline-success;
+}
+
+.user {
+  @apply text-xs p-1;
+}
+
+.noFriends {
+  @apply text-center text-red-400 text-xs mt-2;
+}

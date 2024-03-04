@@ -1,0 +1,22 @@
+.centerText {
+  @apply text-center;
+}
+
+.friendList {
+  @apply overflow-hidden overflow-y-scroll;
+}
+
+/* width */
+.scroll::-webkit-scrollbar {
+  @apply w-4;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  @apply border-solid border-4 border-transparent rounded-lg bg-clip-padding bg-gray-200;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300;
+}

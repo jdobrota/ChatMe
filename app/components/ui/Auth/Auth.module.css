@@ -1,0 +1,3 @@
+.authContent {
+  @apply flex flex-col p-6 bg-slate-50 text-center max-w-[50vw] max-h-[50vh] min-w-max min-h-max justify-center shadow-sm mt-2 rounded-lg;
+}

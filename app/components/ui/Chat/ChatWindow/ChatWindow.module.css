@@ -1,0 +1,22 @@
+.messages {
+  @apply overflow-hidden overflow-y-scroll flex flex-col-reverse max-w-[95%] h-full;
+}
+
+.center {
+  @apply justify-center;
+}
+
+/* width */
+.scroll::-webkit-scrollbar {
+  @apply w-4;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  @apply border-solid border-4 border-transparent rounded-lg bg-clip-padding bg-gray-200;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300;
+}

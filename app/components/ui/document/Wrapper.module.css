@@ -1,0 +1,3 @@
+.main {
+  @apply flex flex-col h-screen justify-start items-center min-w-full overflow-hidden;
+}
