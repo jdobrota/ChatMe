@@ -1,5 +1,5 @@
 .user {
-  @apply text-xs overflow-hidden p-1;
+  @apply text-xs overflow-hidden p-1 justify-start;
 }
 
 .addButton {
@@ -15,5 +15,9 @@
 }
 
 .bodyStyle {
-  @apply flex flex-row items-center justify-between;
+  @apply flex flex-row items-center justify-between overflow-hidden;
+}
+
+.avatar {
+  @apply min-w-fit;
 }

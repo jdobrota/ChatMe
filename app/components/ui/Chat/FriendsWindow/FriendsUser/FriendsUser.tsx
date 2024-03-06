@@ -41,6 +41,7 @@ function FriendsUser({
             src: user?.image!,
             isBordered: true,
             color: user.status === "online" ? "success" : "warning",
+            classNames: { base: styles.avatar },
           }}
         />
 
