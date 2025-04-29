@@ -2,7 +2,7 @@
 
 ChatMe! is a FullStack application built with Next.js, TypeScript, HTML/CSS, React.js, GitHub, Tailwind CSS, Upstash, Redis, NextAuth, Next UI, Pusher JS, and SWR.
 
-![ChatMe! Screenshot](https://i.imgur.com/BQek2mg.png)
+![ChatMe! Screenshot](https://imgur.com/a/iXeGHsj)
 
 ## Live Demo
 
