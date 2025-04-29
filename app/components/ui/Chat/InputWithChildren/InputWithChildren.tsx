@@ -1,6 +1,7 @@
 import React from "react";
 import { Input } from "@nextui-org/input";
 import { NextUIProvider } from "@nextui-org/react";
+import styles from "./InputWithChildren.module.css";
 
 function InputWithChildren({
   children,
@@ -28,7 +29,7 @@ function InputWithChildren({
         disabled={disabled}
         size="sm"
         variant="faded"
-        className={className}
+        className={styles.input + " " + className}
       />
     </NextUIProvider>
   );

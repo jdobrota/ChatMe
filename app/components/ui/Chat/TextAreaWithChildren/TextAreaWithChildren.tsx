@@ -1,6 +1,7 @@
 import React from "react";
 import { Textarea } from "@nextui-org/react";
 import { NextUIProvider } from "@nextui-org/system";
+import styles from "./TextAreaWithChildren.module.css";
 
 function TextAreaWithChildren({
   children,
@@ -32,7 +33,7 @@ function TextAreaWithChildren({
         size="sm"
         variant="faded"
         onKeyPress={onPressEnter}
-        className={className}
+        className={styles.textArea + " " + className}
       />
     </NextUIProvider>
   );

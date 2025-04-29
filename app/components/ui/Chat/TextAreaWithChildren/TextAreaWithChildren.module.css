@@ -1,0 +1,3 @@
+.textArea :global(textarea) {
+  @apply pt-2 border-transparent;
+}

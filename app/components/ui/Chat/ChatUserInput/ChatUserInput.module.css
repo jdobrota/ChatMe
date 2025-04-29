@@ -3,7 +3,7 @@
 }
 
 .userInputIcon {
-  @apply text-2xl text-default-400 pointer-events-none flex-shrink-0;
+  @apply text-2xl text-default-400 pointer-events-none flex-shrink-0 pr-1 self-center;
 }
 
 .form {
@@ -11,7 +11,7 @@
 }
 
 .userInputContainer {
-  @apply w-full;
+  @apply w-full items-center;
 }
 
 .emoji {

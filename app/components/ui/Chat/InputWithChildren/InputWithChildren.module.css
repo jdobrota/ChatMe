@@ -1,0 +1,3 @@
+.input :global(input) {
+  @apply pt-2 border-transparent;
+}
